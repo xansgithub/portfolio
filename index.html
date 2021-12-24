@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>xander's website</title>
+</head>
+
+<body style="background-color:grey;">
+
+	<h1>website!!!!!!!!!!!!!!</h1>
+	<p>qwieojcoxjckvoekjrmlk</p>
+
+<button onclick="showJobs()" value="0">Employment history</button>
+	<div id="jobDiv">
+
+		<h4>Summer IT Assistant - Gananda Central School District</h4>
+		<p>Performed IT inventory audits for the elementary, middle, and high schools. Re-imaged multiple computer labs and laptop carts using Symantec Ghost and MDT. Updated classroom Smartboards and over 200 student Chromebooks in preparation for the upcoming school year.</p>
+
+		<h4>Primary Notetaker - Rochester Institute of Technology</h4>
+		<p>Wrote adequate notes as an accommodation for deaf and hard-of-hearing students. Responsible for uploading notes in a timely manner.</p>
+
+		<h4>IT Student Intern - U.S. District Court for the Western District of NY</h4>
+		<p>Collaborated with the IT department providing technical support for 100+ employees in the District Court, Bankruptcy Court, and Probation offices. Responsible for preparing computer equipment for network updates and software installations, installing new devices for end-users, and troubleshooting errors related to computer systems, all while following standard cybersecurity procedures. Shadowed multiple members of the IT department.</p>
+
+	</div>
+
+<button onclick="showProjects()">Projects</button>
+	<div id="projDiv">
+		
+		<h4>Gananda Coding Camp</h4>
+		<p>blah blah blah</p>
+
+		<h4>LAN Chatroom</h4>
+                <p>blah blah blah</p>
+
+	</div>
+
+
+<script>
+function showJobs() {
+	var x = document.getElementById("jobDiv");
+	if (x.style.display == "none") {
+		x.style.display = "block";
+	} else {
+		x.style.display = "none";
+	}
+}
+</script>
+
+<script>
+function showProjects() {
+        var x = document.getElementById("projDiv");
+        if (x.style.display == "none") {
+                x.style.display = "block";
+        } else {
+                x.style.display = "none";
+        }
+}
+</script>
+
+</body>
+</html>
